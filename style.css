@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(110, 56, 14, 0.91);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid  #00000066 ;
+    
+    
+
+}
+
+
+.imagem{
+    text-align: center;
+    height: 40%;
+    
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none ;
+    align-items: center;
+    padding: 16px;
+
+}
+
+a{
+    color: rgb(55, 226, 55);
+    text-decoration: none ;
+    font-family:sans-serif;
+    
+    
+}
+
+
+h1{
+    color:  #6dd292;
+
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+nav a:hover{
+    color: #009966;
+    box-shadow: 1px 1px 111px 6px;
+}
+
+p{
+    width: 60%;
+}
+
+#projetos{
+    color: rgb(55, 226, 55);
+    transition: 3s;
+    
+}
+
+.whats{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+html {
+    Scroll-behavior: smooth;
+    background-color: black;
+}
+
+
+
