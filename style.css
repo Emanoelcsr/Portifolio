@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(110, 56, 14, 0.91);
+    background-color: rgb(124, 66, 21);
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -12,7 +12,6 @@ img{
     height: 150px;
     border-radius: 50%;
     border: 5px solid  #00000066 ;
-    
     
 
 }
@@ -39,7 +38,14 @@ a{
     text-decoration: none ;
     font-family:sans-serif;
     
-    
+}
+
+.sobr{
+    display: flex;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: initial;
+    color: #4db95df3;
 }
 
 
@@ -67,18 +73,24 @@ p{
     
 }
 
-.whats{
-    width: 80%;
+.redes{
     display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    font-size: 50px;
+    gap: 15px;
+    position: absolute;
+    top: 25px;
+    right: 45px;
 }
+
 
 html {
     Scroll-behavior: smooth;
     background-color: black;
+    
 }
 
+
+i{
+    color: white;
+}
 
 
