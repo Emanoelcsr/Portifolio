@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(124, 66, 21);
     color: aliceblue;
@@ -6,21 +12,20 @@ body{
 }
 
 
-
 img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid  #00000066 ;
-    
-
 }
 
-
 .imagem{
-    text-align: center;
+    display: flex;
     height: 40%;
-    
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    outline: none;
 }
 
 
@@ -37,7 +42,7 @@ a{
     color: rgb(55, 226, 55);
     text-decoration: none ;
     font-family:sans-serif;
-    
+    padding: 20px;
 }
 
 .sobr{
@@ -51,7 +56,7 @@ a{
 
 h1{
     color:  #6dd292;
-
+    padding: 20px;
 }
 
 .container{
@@ -59,18 +64,20 @@ h1{
 }
 
 nav a:hover{
-    color: #009966;
-    box-shadow: 1px 1px 111px 6px;
+    color: #6aebc0;
+    text-shadow: 1px 1px 111px 6px;
 }
 
 p{
     width: 60%;
+    margin: 10px;
+    padding: 20px;
 }
 
 #projetos{
     color: rgb(55, 226, 55);
     transition: 3s;
-    
+    padding: 20px;
 }
 
 .redes{
